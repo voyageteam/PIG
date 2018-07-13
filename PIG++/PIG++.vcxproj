@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\Item.h" />
+    <ClInclude Include="include\ItemList.h" />
+    <ClInclude Include="include\pig.h" />
+    <ClInclude Include="include\PlayerClass.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\pig.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
